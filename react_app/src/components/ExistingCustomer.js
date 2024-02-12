@@ -12,6 +12,9 @@ const Customer = () => {
       <button className="btn btn-primary" onClick={handleButtonClick}>
         Manage Plans
       </button>
+      <button className="btn btn-success" >
+                Display Customer Table
+            </button>
 
       {showForms && (
         <div className="mt-4">
